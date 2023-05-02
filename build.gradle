@@ -26,8 +26,8 @@ repositories {
       name = "GitHubPackages"
       url = "https://maven.pkg.github.com/nasa-ammos/aerie"
         credentials {
-          username = System.getenv('GITHUB_USER')
-          password = System.getenv('GITHUB_TOKEN')
+          username = "$GITHUB_USER"
+          password = "$GITHUB_TOKEN"
         }
     }
 }

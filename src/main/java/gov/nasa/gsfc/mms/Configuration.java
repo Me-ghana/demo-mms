@@ -1,4 +1,4 @@
-package firesat;
+package gov.nasa.gsfc.mms;
 
 import static gov.nasa.jpl.aerie.merlin.framework.annotations.Export.Template;
 

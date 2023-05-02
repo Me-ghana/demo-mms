@@ -1,6 +1,6 @@
-package firesat;
+package gov.nasa.gsfc.mms;
 
-import firesat.models.gnc.GncControlMode;
+import gov.nasa.gsfc.mms.models.gnc.GncControlMode;
 import gov.nasa.jpl.aerie.contrib.models.Register;
 import gov.nasa.jpl.aerie.contrib.serialization.mappers.EnumValueMapper;
 import gov.nasa.jpl.aerie.merlin.framework.Registrar;

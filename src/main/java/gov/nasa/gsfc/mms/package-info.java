@@ -2,9 +2,9 @@
 @WithMappers(BasicValueMappers.class)
 @WithConfiguration(Configuration.class)
 @WithActivityType(GncChangeControlMode.class)
-package firesat;
+package gov.nasa.gsfc.mms;
 
-import firesat.activities.gnc.GncChangeControlMode;
+import gov.nasa.gsfc.mms.activities.gnc.GncChangeControlMode;
 import gov.nasa.jpl.aerie.contrib.serialization.rulesets.BasicValueMappers;
 import gov.nasa.jpl.aerie.merlin.framework.annotations.MissionModel;
 import gov.nasa.jpl.aerie.merlin.framework.annotations.MissionModel.WithActivityType;

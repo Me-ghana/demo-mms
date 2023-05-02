@@ -4,3 +4,5 @@
 .gradle
 bin
 build
+
+gradle.properties

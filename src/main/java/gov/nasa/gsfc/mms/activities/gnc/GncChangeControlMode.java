@@ -1,7 +1,7 @@
-package firesat.activities.gnc;
+package gov.nasa.gsfc.mms.activities.gnc;
 
-import firesat.Mission;
-import firesat.models.gnc.GncControlMode;
+import gov.nasa.gsfc.mms.models.gnc.GncControlMode;
+import gov.nasa.gsfc.mms.Mission;
 import gov.nasa.jpl.aerie.merlin.framework.annotations.ActivityType;
 import gov.nasa.jpl.aerie.merlin.framework.annotations.ActivityType.EffectModel;
 import gov.nasa.jpl.aerie.merlin.framework.annotations.Export.Parameter;
@@ -10,6 +10,13 @@ import gov.nasa.jpl.aerie.merlin.framework.annotations.Export.Parameter;
 public final class GncChangeControlMode {
   @Parameter
   public GncControlMode gncControlMode = GncControlMode.THRUSTERS;
+
+  public GncChangeControlMode() {
+  }
+
+  public GncChangeControlMode(GncControlMode gncControlMode) {
+    this.gncControlMode = gncControlMode;
+  }
 
   @EffectModel
   public void run(final Mission mission) {

@@ -1,4 +1,4 @@
-package firesat.models.gnc;
+package gov.nasa.gsfc.mms.models.gnc;
 
 public enum GncControlMode {
   REACTION_WHEELS,
